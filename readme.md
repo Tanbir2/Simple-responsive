@@ -1,1 +1,1 @@
- too much hard work!
+ simple responsive webpages
