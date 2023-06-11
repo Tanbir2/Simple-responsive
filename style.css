@@ -1,0 +1,88 @@
+/* header custom css */
+.for-padding{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/*our package sections custom css */
+.fs{
+    font-size: 15px;
+    color: #848199;
+}
+.bord{
+    border:none;
+}
+.background{
+    background-color: #3F87F5;
+    border-radius: 30px;
+}
+.t{
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+}
+.toast{
+    border: 1px solid navy;
+    border-right: 0;
+    border-top: 0;
+    border-bottom:0;
+    border-left-width: 5px;
+}
+.accordion-button:not(.collapsed){
+    color: black;
+    font-weight: 600px;
+    background-color: white;
+    box-shadow: none;
+}
+/* middle section custom css */
+.middle{
+    height: 580px;
+    background-image: url("images/See.jpg");
+    background-repeat: no-repeat;
+
+}
+
+/* footer custom css */
+
+footer{
+    background-color: black;
+    color: #d1d8e0;
+    height: 220px;
+}
+.bottom-button{
+    color: white;
+    text-decoration: none;
+}
+.store{
+width: 140px;
+    background-color: black;
+    height:50px;
+    border-radius: 7px;
+    text-align: start;
+}
+span{
+    font-size: 11px;
+}
+.s{
+    width: 120px;
+    height: 50px;
+    color: white;
+    border: 1px solid darkcyan;
+}
+
+/* 
+responsive
+ */
+
+ @media screen and (max-width: 576px){
+     .responsive-one{
+        position:relative;
+        top:20px;
+        left: 50px;
+        
+     }
+     .responsive-two{
+         position: relative; bottom: 225px; left:113px;
+     }
+ }
